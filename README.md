@@ -8,6 +8,7 @@ sync_project_dir_with_svn
 python syncdir.py source_dir target_dir
 source_dir 最后不要斜杠
 
-屏蔽文件/目录，这2个list指定的文件/目录不会被同步:
-disableDir = ['.svn', '.settings', 'config', 'svn', 'runtime']
+屏蔽文件/目录，这2个list指定的文件/目录不会被同步: 
+ 
+disableDir = ['.svn', '.settings', 'config', 'svn', 'runtime']  
 disableFile = ['.buildpath', '.project']
